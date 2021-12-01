@@ -15,6 +15,11 @@ module.exports = {
           113: '#718096',
           114: '#a0aec0',
         }
+      },
+      screens:{
+        'down_lg': {'max':'1025px'},
+        'down_md': {'max':'769px'},
+        'down_sm': {'max':'480px'},
       }
     },
   },
