@@ -4,5 +4,11 @@
 
 
 body{
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  margin: 0;
+  padding:0;
+}
+
+.container{
+  @apply mx-auto px-5;
 }
