@@ -6,7 +6,8 @@ module.exports = {
       colors:{
         blue: {
           111: "#ebf8ff",
-          112: '#3182ce'
+          112: '#3282ce'
+          
         },
         gray:{
           111: '#4a5568',
@@ -22,6 +23,7 @@ module.exports = {
       }
     },
   },
+
   variants: {
     extend: {},
   },
