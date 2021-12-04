@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-  @apply mx-auto px-24;
+  @apply mx-auto;
 }
 
 
@@ -59,13 +59,11 @@ body{
 }
 
 
+.scroll-header{
+  @apply bg-white shadow-xl transition-shadow	;
+}
 
-@media(max-width:1023px){
-  .icon {
-    display: block;
-    float: right;
-  }
-  .a{
-    display: none;
-  }
+.show-menu{
+  @apply h-72 visible !important;
+  transition: 0.3 all ease-in-out;
 }

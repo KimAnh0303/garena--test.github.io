@@ -25,21 +25,24 @@ $(document).ready(function(){
   });
 });	
 
-
-// map 
-function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.036 };
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: uluru,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: uluru,
-    map: map,
-  });
+// navbar
+function scrollHeader(){
+  const nav = document.getElementById('header-wrap');
+  //When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
+  if(this.scrollY >= 100) nav.classList.add('scroll-header'); 
+  else nav.classList.remove('scroll-header');
 }
 
-// navbar
+window.addEventListener('scroll',scrollHeader);
+
+
+
+// =========================SHOW MENU========================
+0
+
+$(document).ready(function () {
+    $("#btn-navbar").click(function () {
+        $("#topnav").toggleClass("show-menu");
+        return false;
+    });
+});

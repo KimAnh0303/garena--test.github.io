@@ -16,52 +16,53 @@
 <body>
   
   <!--header-->
-  <header id="header-wrap " class="relative bg-white ">
-    <div class="duration-300 z-30 w-full left-0 top-0 fixed">
-      <div class="container mx-auto">
-        <nav class="duration-300 py-2 justify-between items-center flex h-20">
+  <header class="relative ">
+    <div class="z-30 w-full left-0 top-0 fixed" id="header-wrap">
+      <div class="container mx-auto down_lg:px-3">
+        <nav class="py-2 justify-between items-center flex h-20 ">
               <a class="navbar-brand" href="index.html">
-                <img src="./image/logo.svg" alt="logo" class="">
+                <img src="./image/logo.svg" alt="logo" class="w-9/12">
               </a>
-              <div class="nav_mobile border-collapse duration-300 z-20 w-full top-auto left-0 absolute px-5 ">
-                <ul id="topnav" class="nav_mobilelist navbar-nav justify-center items-center lg:flex">
-                  <li class="nav-item mr-5 ">
-                      <a class="a text-blue-600" href="#">HOME</a>
+              <div class="nav_mobile">
+                <ul id="topnav" class="nav_mobilelist navbar-nav ease-in-out justify-center down_md:invisible down_md:h-0 down_md:absolute down_md:left-0 down_md:top-16 down_md:bg-white down_md:w-full  items-center lg:flex">
+                  <li class="nav-item down_md:my-4">
+                      <a class=" text-blue-600 text-sm px-4 py-2" href="#home">HOME</a>
                   </li>
-                  <li class="nav-item mr-5  ">
-                      <a class="a hover:text-blue-600" href="#">SERVICES</a>
+                  <li class="nav-item down_md:my-4 ">
+                      <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#services">SERVICES</a>
                   </li>
-                  <li class="nav-item mr-5  ">
-                    <a class="a hover:text-blue-600" href="#">FEATURE</a>
+                  <li class="nav-item down_md:my-4 ">
+                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#feature">FEATURE</a>
                   </li>
-                  <li class="nav-item mr-5  ">
-                    <a class="a hover:text-blue-600" href="#">TEAM</a>
+                  <li class="nav-item down_md:my-4 ">
+                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#team">TEAM</a>
                   </li>
-                  <li class="nav-item mr-5  ">
-                    <a class="a hover:text-blue-600" href="#">TESTIMONIAL</a>
+                  <li class="nav-item down_md:my-4 ">
+                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#testimonial">TESTIMONIAL</a>
                   </li>
-                  <li class="nav-item mr-5  ">
-                    <a class=" a hover:text-blue-600"  href="#">PRICING</a>
+                  <li class="nav-item down_md:my-4 ">
+                    <a class=" hover:text-blue-600 text-sm px-4 py-2"  href="#pricing">PRICING</a>
                   </li>
-                  <li class="nav-item mr-5  ">
-                    <a class="a hover:text-blue-600" href="#">CONTACT</a>
-                  </li>
-                  <li class="nav-item mr-5  ">
-                    <a  href="javascript:void(0)" style="font-style: 15px;" class="icon hidden" onclick="myFunction()">&#9776;</a>
+                  <li class="nav-item down_md:my-4 ">
+                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#contact">CONTACT</a>
                   </li>
                 </ul>
               </div>
 
-              <div class=" down_sm:hidden">
-                  <a class="text-blue-600 border border-blue-600 px-10 py-2 rounded-full  hover:bg-blue-600 hover:text-white" href="#">FAQ</a>
+              
+              <div class=" flex">
+                <a class="down_sm:hidden text-blue-600 border border-blue-600 px-10 py-2 rounded-full  hover:bg-blue-600 hover:text-white" href="#">FAQ</a>
+                <button class=" hidden down_md:block ml-10" id="btn-navbar">
+                  <i class="fa fa-bars text-4xl" aria-hidden="true"></i>
+                </button>
               </div>
-        </nav>
+            </nav>
       </div>
     </div>
   </header>
   <!--home-->
   <content>
-    <div class="home container  h-auto bg-blue-111 pt-10 ">
+    <div class="home bg-blue-111 pt-10 ">
         
           <h2 class="text-gray-700 font-bold text-center text-4xl pt-28 leading-snug " >Startup and SaaS Landing Page Built<br> with TaildWindCSS</h2>
           <div class="  text-center mb-8 pt-10 ">
@@ -195,7 +196,7 @@
         <h4 class="mb-3 text-4xl text-gray-700 tracking-wide font-bold ">Start for free</h4>
         <p class="text-gray-600 mb-4 leading-8">Existing customized ideas through client-based deliverables.<br>
           Compellingly unleash fully tested outsourcing</p>
-        <input type="email" placeholder="Email Address" class="w-96 px-5 py-3 mb-5 border rounded-full border-blue-300 bg-white ">
+        <input type="email" placeholder="Email Address" class="w-96 down_sm:w-4/5 px-5 py-3 mb-5 border rounded-full border-blue-300 bg-white ">
         <button type="submit" class="w-12 text-white h-12 border-0 rounded-full bg-blue-600 block m-auto hover:bg-blue-500">
           <i class="lni lni-arrow-right"></i>
         </button>
