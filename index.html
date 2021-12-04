@@ -1,261 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/tailwind.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <title>Shine page</title>
-  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
-  
-</head>
-<body>
-  
-  <!--header-->
-  <header class="relative ">
-    <div class="z-30 w-full left-0 top-0 fixed" id="header-wrap">
-      <div class="container mx-auto down_lg:px-3">
-        <nav class="py-2 justify-between items-center flex h-20 ">
-              <a class="navbar-brand" href="index.html">
-                <img src="./image/logo.svg" alt="logo" class="w-9/12">
-              </a>
-              <div class="nav_mobile">
-                <ul id="topnav" class="nav_mobilelist navbar-nav ease-in-out justify-center down_md:invisible down_md:h-0 down_md:absolute down_md:left-0 down_md:top-16 down_md:bg-white down_md:w-full  items-center lg:flex">
-                  <li class="nav-item down_md:my-4">
-                      <a class=" text-blue-600 text-sm px-4 py-2" href="#home">HOME</a>
-                  </li>
-                  <li class="nav-item down_md:my-4 ">
-                      <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#service">SERVICES</a>
-                  </li>
-                  <li class="nav-item down_md:my-4 ">
-                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#feature">FEATURE</a>
-                  </li>
-                  <li class="nav-item down_md:my-4 ">
-                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#team">TEAM</a>
-                  </li>
-                  <li class="nav-item down_md:my-4 ">
-                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#testimonial">TESTIMONIAL</a>
-                  </li>
-                  <li class="nav-item down_md:my-4 ">
-                    <a class=" hover:text-blue-600 text-sm px-4 py-2"  href="#pricing">PRICING</a>
-                  </li>
-                  <li class="nav-item down_md:my-4 ">
-                    <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#contact">CONTACT</a>
-                  </li>
-                </ul>
-              </div>
 
-              
-              <div class=" flex">
-                <a class="down_sm:hidden text-blue-600 border border-blue-600 px-10 py-2 rounded-full  hover:bg-blue-600 hover:text-white" href="#">FAQ</a>
-                <button class=" hidden down_md:block ml-10" id="btn-navbar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>Shine page</title>
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--header-->
+    <header class="relative ">
+        <div class="z-30 w-full left-0 top-0 fixed" id="header-wrap">
+            <div class="container mx-auto down_lg:px-3">
+                <nav class="py-2 justify-between items-center flex h-20 ">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./image/logo.svg" alt="logo" class="w-9/12">
+                    </a>
+                    <div class="nav_mobile">
+                        <ul id="topnav" class="nav_mobilelist navbar-nav ease-in-out justify-center down_md:invisible down_md:h-0 down_md:absolute down_md:left-0 down_md:top-16 down_md:bg-white down_md:w-full  items-center lg:flex">
+                            <li class="nav-item down_md:my-4">
+                                <a class=" text-blue-600 text-sm px-4 py-2" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item down_md:my-4 ">
+                                <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#service">SERVICES</a>
+                            </li>
+                            <li class="nav-item down_md:my-4 ">
+                                <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#feature">FEATURE</a>
+                            </li>
+                            <li class="nav-item down_md:my-4 ">
+                                <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#team">TEAM</a>
+                            </li>
+                            <li class="nav-item down_md:my-4 ">
+                                <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#testimonial">TESTIMONIAL</a>
+                            </li>
+                            <li class="nav-item down_md:my-4 ">
+                                <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#pricing">PRICING</a>
+                            </li>
+                            <li class="nav-item down_md:my-4 ">
+                                <a class=" hover:text-blue-600 text-sm px-4 py-2" href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class=" flex">
+                        <a class="down_sm:hidden text-blue-600 border border-blue-600 px-10 py-2 rounded-full  hover:bg-blue-600 hover:text-white" href="#">FAQ</a>
+                        <button class=" hidden down_md:block ml-10" id="btn-navbar">
                   <i class="fa fa-bars text-4xl" aria-hidden="true"></i>
                 </button>
-              </div>
-            </nav>
-      </div>
-    </div>
-  </header>
-  <!--home-->
-  <content id="home">
-    <div class="home bg-blue-111 pt-10 ">
-        
-          <h2 class="text-gray-700 font-bold text-center text-4xl pt-28 leading-snug " >Startup and SaaS Landing Page Built<br> with TaildWindCSS</h2>
-          <div class="  text-center mb-8 pt-10 ">
-            <a class="text-white border border-blue-600 rounded-full bg-blue-112 px-8 py-4 hover:bg-blue-500  " href="#">Download Now</a>
-      ` </div>
-      ` <div>
-          `<img src="./image/hero.svg" alt="hero" class="mx-auto">
-      ``</div>
-    </div>
-  </content>
-  <!-- SERVICES -->
-  <section id="service" class="">
-    <div class="container py-24">
-      <h1 class="text-4xl font-bold text-gray-500 text-center mb-12">Our Services</h1>
-      <div class="services_list grid grid-cols-3 down_md:grid-cols-2 down_sm:grid-cols-1 gap-4">
-        <div class="services_item mb-10">
-          <i class="fa fa-cog text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
-          <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Web Developer</h3>
-          <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-        </div>
-        <div class="services_item mb-10">
-          <i class="fa fa-area-chart text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
-          <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Graphic design</h3>
-          <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-        </div>
-        <div class="services_item mb-10">
-          <i class="fa fa-briefcase text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
-          <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Business branding</h3>
-          <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-        </div>
-        <div class="services_item mb-10">
-          <i class="fa fa-pencil text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
-          <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Content writing</h3>
-          <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-        </div>
-        <div class="services_item mb-10">
-          <i class="fa fa-cubes text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
-          <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">App Development</h3>
-          <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-        </div>
-        <div class="services_item mb-10">
-          <i class="fa fa-database text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
-          <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Digital marketing</h3>
-          <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- feature -->
-  <div id="feature" class="bg-blue-111">
-    <div class="container mx-auto px-5 py-24">
-      <div class="flex flex-wrap items-center">
-        <div class="w-full lg:w-1/2">
-          <div class="mb-5 lg:mb-0">
-            <h2 class="text-4xl font-semibold text-gray-600">Learn More About Us</h2>
-            <div class="flex flex-wrap my-20">
-              <div class="w-full sm:w-1/2 lg:w-1/2">
-                <div class="m-3">
-                  <div class="font-bold icon text-4xl text-blue-500 mb-7">
-                    <i class=" lni lni-layers">
-                    </i>
-                  </div>
-                  <div class="feature-content">
-                    <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Built with TailwindCSS</h4>
-                    <p class="text-gray-113">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full sm:w-1/2 lg:w-1/2">
-                <div class="m-3">
-                  <div class="font-bold icon text-4xl text-blue-500 mb-7">
-                    <i class=" lni lni-gift">
-                    </i>
-                  </div>
-                  <div class="feature-content">
-                    <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Free to Use</h4>
-                    <p class="text-gray-113">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full sm:w-1/2 lg:w-1/2">
-                <div class="m-3">
-                  <div class="font-bold icon text-4xl text-blue-500 mb-7">
-                    <i class=" lni lni-laptop-phone">
-                    </i>
-                  </div>
-                  <div class="feature-content">
-                    <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Fully Responsive</h4>
-                    <p class="text-gray-113">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full sm:w-1/2 lg:w-1/2">
-                <div class="m-3">
-                  <div class="font-bold icon text-4xl text-blue-500 mb-7">
-                    <i class=" lni lni-leaf">
-                    </i>
-                  </div>
-                  <div class="feature-content">
-                    <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Easy to Customize</h4>
-                    <p class="text-gray-113">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-        <div class="mb-5 lg:w-1/2">
-          <div class="mx-3 lg:mr-0 lg:ml-3">
-            <img src="./image/feature-img.svg" alt="">
+                    </div>
+                </nav>
             </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </header>
+    <!--home-->
+    <content id="home">
+        <div class="home bg-blue-111 pt-10 ">
 
-  <!-- add see on -->
-  <section id="aSe" class="py-20 bg-blue-111">
-    <div class="container">
-      <h1 class="font-bold text-4xl text-gray-111 text-center mb-6">As see on</h1>
-      <div class="row flex flex-wrap">
-        <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
-          <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img1.svg" alt="logo">
+            <h2 class="text-gray-700 font-bold text-center text-4xl pt-28 leading-snug ">Startup and SaaS Landing Page Built<br> with TaildWindCSS</h2>
+            <div class="  text-center mb-8 pt-10 ">
+                <a class="text-white border border-blue-600 rounded-full bg-blue-112 px-8 py-4 hover:bg-blue-500  " href="#">Download Now</a> ` </div>
+            `
+            <div>
+                `<img src="./image/hero.svg" alt="hero" class="mx-auto"> ``
+            </div>
         </div>
-        <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
-          <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img2.svg" alt="logo">
-        </div>
-        <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
-          <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img3.svg" alt="logo">
-        </div>
-        <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
-          <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img4.svg" alt="logo">
-        </div>
-      </div>
-    </div>
-  </section>
+    </content>
+    <!-- SERVICES -->
+    <section id="service" class="">
+        <div class="container py-24">
+            <h1 class="text-4xl font-bold text-gray-500 text-center mb-12">Our Services</h1>
+            <div class="services_list grid grid-cols-3 down_md:grid-cols-2 down_sm:grid-cols-1 gap-4">
+                <div class="services_item mb-10">
+                    <i class="fa fa-cog text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
+                    <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Web Developer</h3>
+                    <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                </div>
+                <div class="services_item mb-10">
+                    <i class="fa fa-area-chart text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
+                    <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Graphic design</h3>
+                    <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                </div>
+                <div class="services_item mb-10">
+                    <i class="fa fa-briefcase text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
+                    <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Business branding</h3>
+                    <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                </div>
+                <div class="services_item mb-10">
+                    <i class="fa fa-pencil text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
+                    <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Content writing</h3>
+                    <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                </div>
+                <div class="services_item mb-10">
+                    <i class="fa fa-cubes text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
+                    <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">App Development</h3>
+                    <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                </div>
+                <div class="services_item mb-10">
+                    <i class="fa fa-database text-blue-112 h-12 w-12 text-4xl mb-2" aria-hidden="true"></i>
+                    <h3 class="services_item-title text-gray-112 text-lg font-bold uppercase mb-1">Digital marketing</h3>
+                    <p class="text-base text-gray-113">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                </div>
 
-  <!--start for free-->
-  <section id="subscribes " class="text-center py-20 bg-blue-111">
-    <div class="container mx-auto">
-      <div class="justify-center  mx-3">
-        <h4 class="mb-3 text-4xl text-gray-700 tracking-wide font-bold ">Start for free</h4>
-        <p class="text-gray-600 mb-4 leading-8">Existing customized ideas through client-based deliverables.<br>
-          Compellingly unleash fully tested outsourcing</p>
-        <input type="email" placeholder="Email Address" class="w-96 down_sm:w-4/5 px-5 py-3 mb-5 border rounded-full border-blue-300 bg-white ">
-        <button type="submit" class="w-12 text-white h-12 border-0 rounded-full bg-blue-600 block m-auto hover:bg-blue-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- feature -->
+    <div id="feature" class="bg-blue-111">
+        <div class="container mx-auto px-5 py-24">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full lg:w-1/2">
+                    <div class="mb-5 lg:mb-0">
+                        <h2 class="text-4xl font-semibold text-gray-600">Learn More About Us</h2>
+                        <div class="flex flex-wrap my-20">
+                            <div class="w-full sm:w-1/2 lg:w-1/2">
+                                <div class="m-3">
+                                    <div class="font-bold icon text-4xl text-blue-500 mb-7">
+                                        <i class=" lni lni-layers">
+                    </i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Built with TailwindCSS</h4>
+                                        <p class="text-gray-113">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 lg:w-1/2">
+                                <div class="m-3">
+                                    <div class="font-bold icon text-4xl text-blue-500 mb-7">
+                                        <i class=" lni lni-gift">
+                    </i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Free to Use</h4>
+                                        <p class="text-gray-113">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 lg:w-1/2">
+                                <div class="m-3">
+                                    <div class="font-bold icon text-4xl text-blue-500 mb-7">
+                                        <i class=" lni lni-laptop-phone">
+                    </i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Fully Responsive</h4>
+                                        <p class="text-gray-113">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 lg:w-1/2">
+                                <div class="m-3">
+                                    <div class="font-bold icon text-4xl text-blue-500 mb-7">
+                                        <i class=" lni lni-leaf">
+                    </i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="feature-title text-gray-112 text-lg font-medium mb-5">Easy to Customize</h4>
+                                        <p class="text-gray-113">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mb-5 lg:w-1/2">
+                    <div class="mx-3 lg:mr-0 lg:ml-3">
+                        <img src="./image/feature-img.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- add see on -->
+    <section id="aSe" class="py-20 bg-blue-111">
+        <div class="container">
+            <h1 class="font-bold text-4xl text-gray-111 text-center mb-6">As see on</h1>
+            <div class="row flex flex-wrap">
+                <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
+                    <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img1.svg" alt="logo">
+                </div>
+                <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
+                    <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img2.svg" alt="logo">
+                </div>
+                <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
+                    <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img3.svg" alt="logo">
+                </div>
+                <div class="col w-1/4 down_sm:w-1/2 p-2 opacity-50 hover:opacity-100 transition-opacity">
+                    <img src="https://preview.tailwindtemplates.co/shine/assets/img/clients/img4.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--start for free-->
+    <section id="subscribes " class="text-center py-20 bg-blue-111">
+        <div class="container mx-auto">
+            <div class="justify-center  mx-3">
+                <h4 class="mb-3 text-4xl text-gray-700 tracking-wide font-bold ">Start for free</h4>
+                <p class="text-gray-600 mb-4 leading-8">Existing customized ideas through client-based deliverables.<br> Compellingly unleash fully tested outsourcing</p>
+                <input type="email" placeholder="Email Address" class="w-96 down_sm:w-4/5 px-5 py-3 mb-5 border rounded-full border-blue-300 bg-white ">
+                <button type="submit" class="w-12 text-white h-12 border-0 rounded-full bg-blue-600 block m-auto hover:bg-blue-500">
           <i class="lni lni-arrow-right"></i>
         </button>
-      </div>
-    </div>
-  </section>
+            </div>
+        </div>
+    </section>
 
-  <!-- Slick slider1  -->
-  <section id="slick-slider1" class="bg-gray-112 py-24">
-    <div class="container">
-      <div class="list-slider">
-        <div class="slide-item w-1/3 px-3">
-          <img class="w-full" src="./image/sl-img1.jpg" alt="">
+    <!-- Slick slider1  -->
+    <section id="slick-slider1" class="bg-gray-112 py-24">
+        <div class="container">
+            <div class="list-slider">
+                <div class="slide-item w-1/3 px-3">
+                    <img class="w-full" src="./image/sl-img1.jpg" alt="">
+                </div>
+                <div class="slide-item w-1/3 px-3">
+                    <img class="w-full" src="./image/sl-img2.jpg" alt="">
+                </div>
+                <div class="slide-item w-1/3 px-3">
+                    <img class="w-full" src="./image/sl-img3.jpg" alt="">
+                </div>
+                <div class="slide-item w-1/3 px-3">
+                    <img class="w-full" src="./image/sl-img4.jpg" alt="">
+                </div>
+                <div class="slide-item w-1/3 px-3">
+                    <img class="w-full" src="./image/sl-img5.jpg" alt="">
+                </div>
+                <div class="slide-item w-1/3 px-3">
+                    <img class="w-full" src="./image/sl-img1.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="slide-item w-1/3 px-3">
-          <img class="w-full" src="./image/sl-img2.jpg" alt="">
-        </div>
-        <div class="slide-item w-1/3 px-3">
-          <img class="w-full" src="./image/sl-img3.jpg" alt="">
-        </div>
-        <div class="slide-item w-1/3 px-3">
-          <img class="w-full" src="./image/sl-img4.jpg" alt="">
-        </div>
-        <div class="slide-item w-1/3 px-3">
-          <img class="w-full" src="./image/sl-img5.jpg" alt="">
-        </div>
-        <div class="slide-item w-1/3 px-3">
-          <img class="w-full" src="./image/sl-img1.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- testimonial -->
+    <section id=" testimonial" class="bg-gray-112 py-28 ">
+        <div class="container max-w-3xl  ">
+            <div class="list-testimonial">
+                <div class="text-center border border-gray-900 ">
+                    <div class="text-center p-6 ">
+                        <p class="text-gray-114 ">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly
+                            empower leveraged ROI whereas effective web-readiness. </p>
+                    </div>
+                    <div class="my-4 w-24 h-24 mx-auto  ">
+                        <img class="rounded-full p-2 w-full" src="https://preview.tailwindtemplates.co/shine/assets/img/testimonial/img1.jpg" alt="">
+                    </div>
+                    <div class="mb-2">
+                        <h2 class="font-bold text-lg uppercase text-blue-112 mb-2">Fajar</h2>
+                        <h3 class="font-medium text-white text-sm">Euphoriya</h3>
+                    </div>
+                </div>
+                <div class="text-center border border-gray-900 ">
+                    <div class="text-center p-6">
+                        <p class="text-gray-114">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly
+                            empower leveraged ROI whereas effective web-readiness. </p>
+                    </div>
+                    <div class="my-4  w-24 h-24 mx-auto  ">
+                        <img class="rounded-full p-2 w-full" src="https://preview.tailwindtemplates.co/shine/assets/img/testimonial/img2.jpg" alt="">
+                    </div>
+                    <div class="mb-2 ">
+                        <h2 class="font-bold text-lg uppercase text-blue-112 mb-2 ">Mila</h2>
+                        <h3 class="font-medium text-white text-sm ">PageBulb</h3>
+                    </div>
+                </div>
 
 
-  <!-- map -->
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249525.44778355362!2d109.1064148337576!3d12.259434615045455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170677811cc886f%3A0x5c4bbc0aa81edcb9!2zVHAuIE5oYSBUcmFuZywgS2jDoW5oIEjDsmEsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1638524716010!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class=" w-full p-5"></iframe>
+                <div class="text-center border border-gray-900 ">
+                    <div class="text-center p-6 ">
+                        <p class="text-gray-114 ">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly
+                            empower leveraged ROI whereas effective web-readiness. </p>
+                    </div>
+                    <div class="my-4 w-24 h-24 mx-auto  ">
+                        <img class="rounded-full p-2 w-full " src="https://preview.tailwindtemplates.co/shine/assets/img/testimonial/img1.jpg " alt=" ">
+                    </div>
+                    <div class="mb-2 ">
+                        <h2 class="font-bold text-lg uppercase text-blue-112 mb-2 ">Rob</h2>
+                        <h3 class="font-medium text-white text-sm ">OnePageLove</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing -->
+    <section id="Pricing" class="bg-blue-50 py-24 ">
+        <div class="container ">
+            <div class="flex justify-center flex-wrap  ">
+                <div class="w-96  down_sm:w-full  down_sm:mb-10 h-80 border-2 border-gray-200 hover:bg-blue-100 mx-5 ">
+                    <div class="pricing-box  text-center p-10 ">
+                        <div class="mb-2">
+                            <h3 class="uppercase text-blue-112 font-bold">Basic</h3>
+                        </div>
+                        <div class="mb-3">
+                            <p class="text-gray-111">
+                                <span class="font-bold text-2xl">$12.90</span>
+                                <span class="font-medium text-sm">/ Month</span>
+                            </p>
+                        </div>
+                        <ul class="mb-10">
+                            <li class="text-gray-114 leading-9">Up to 5 projects </li>
+                            <li class="text-gray-114 leading-9">Up to 10 collabrators</li>
+                            <li class="text-gray-114 leading-9">2gb of storage</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 hover:bg-blue-112 text-white py-3 px-9 rounded-full">Get It</a>
+                    </div>
+                </div>
+                <div class="w-96  down_sm:w-full  down_sm:mb-10 h-96 bg-blue-100  ">
+                    <div class="pricing-box text-center p-10">
+                        <div class=" mb-2 ">
+                            <h3 class="uppercase text-blue-112 font-bold ">Profesional</h3>
+                        </div>
+                        <div class="mb-6 ">
+                            <p class="text-gray-111 ">
+                                <span class="font-bold text-2xl ">$49.90</span>
+                                <span class="font-medium text-sm ">/ Month</span>
+                            </p>
+                        </div>
+                        <ul class="mb-10 ">
+                            <li class="text-gray-114 leading-9 ">Up to 10 projects </li>
+                            <li class="text-gray-114 leading-9 ">Up to 20 collabrators</li>
+                            <li class="text-gray-114 leading-9 ">10gb of storage</li>
+                            <li class="text-gray-114 leading-9 ">Real-time collabration</li>
+                        </ul>
+                        <a href="" class="bg-blue-600 hover:bg-blue-112 text-white py-3 px-9 rounded-full ">Get It</a>
+                    </div>
+                </div>
+                <div class="w-96  down_sm:w-full  down_sm:mb-10 border-2 border-gray-200 hover:bg-blue-100 mx-5   ">
+                    <div class="pricing-box shadow-xl text-center p-10 ">
+                        <div class="mb-2 ">
+                            <h3 class="uppercase text-blue-112 font-bold ">Expert</h3>
+                        </div>
+                        <div class="mb-6 ">
+                            <p class="text-gray-111 ">
+                                <span class="font-bold text-2xl ">$89.90</span>
+                                <span class="font-medium text-sm ">/ Month</span>
+                            </p>
+                        </div>
+                        <ul class="mb-10 ">
+                            <li class="text-gray-114 leading-9 ">unlimited projects </li>
+                            <li class="text-gray-114 leading-9 ">Unlimited collabrators</li>
+                            <li class="text-gray-114 leading-9 ">Unlimited of storage</li>
+                            <li class="text-gray-114 leading-9 ">Real-time collabration</li>
+                            <li class="text-gray-114 leading-9 ">24x7 Support</li>
+                        </ul>
+                        <a href="" class="bg-blue-600 hover:bg-blue-112 text-white py-3 px-9 rounded-full ">Get It</a>
+                    </div>
+                </div>
 
-  
+            </div>
+        </div>
+    </section>
+
+
+    <!-- map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249525.44778355362!2d109.1064148337576!3d12.259434615045455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170677811cc886f%3A0x5c4bbc0aa81edcb9!2zVHAuIE5oYSBUcmFuZywgS2jDoW5oIEjDsmEsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1638524716010!5m2!1svi!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class=" w-full p-5"></iframe>
+
+
 
 
 </body>
