@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-  @apply mx-auto;
+  @apply mx-auto px-5;
 }
 
 
@@ -64,6 +64,6 @@ body{
 }
 
 .show-menu{
-  @apply h-72 visible !important;
+  @apply h-72 visible shadow-xl transition-shadow !important;
   transition: 0.3 all ease-in-out;
 }
