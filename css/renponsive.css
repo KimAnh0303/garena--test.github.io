@@ -1,0 +1,154 @@
+                        @media (min-width:1023px) {
+                            .game__img-2{
+                                background-image: url(/img/bg-grn-1.jpg);
+                              }
+                            .game__img-3{
+                            background-image: url(/img/grn-3.jpg);
+                            display: flex !important
+                            }
+                            .game__img-4{
+                                background-image: url(/img/grn-4.jpg);
+                            }
+                            .game__img-5{
+                                background-image: url(/img/grn-5.jpg);
+                                display: flex !important
+                            }
+                            .game__img-6{
+                                background-image: url(/img/grn-6.jpg);
+                            }
+                            .game__img-7{
+                                background-image: url(/img/grn-7.jpg);
+                                display: flex !important
+                            }
+                            .card-box{
+                                background-image: url(/img/bg-box.png);
+                                height: 430px;
+
+                            }
+                            .slick-slide{
+                                min-height: 720px !important
+                              }
+                              .career__right{
+                                background-image: url(/img/career-img.jpg);
+                            }
+                            .contact__left ,
+                            .career__left,
+                            basic__box-right{
+                                padding: 0 60px;
+                            }
+                        }
+                    /* Mobie và table */
+                    
+                    @media (max-width:1023px) {
+                        button.slick-arrow{
+                            display: none !important
+                        }
+                        .slide-item--left img {
+                            display: none 
+                        }
+                        .game__img-2{
+                            background-image: url(/img/bg-grn-1-table.jpg);
+                          }
+                        .game__img-3{
+                            background-image: url('/img/grn-3-mb.jpg');
+                        }
+                        .game__img-4{
+                            background-image: url(/img/grn-4-mb.jpg);
+                        }
+                        .game__img-5{
+                            background-image: url(/img/grn-5-mb.jpg);
+                        }
+                        .game__img-6{
+                            background-image: url(/img/grn-6-mb.jpg);
+                        }
+                        .game__img-7{
+                            background-image: url(/img/grn-7-mb.jpg);
+                        }
+                        .card-box{
+                            background-image: url(/img/bg-card-mb.png);
+
+                        }
+
+                    }
+                    /* Table */
+                    
+                    @media (min-width:740px) and (max-width:1021px) {
+                        .slick-slide{
+                            min-height: 987px !important;
+                           
+                          }
+                          .slide-item__text{
+                            top: 45rem;
+                          }
+                          .card-box{
+                            min-height: 696px;
+                        }
+                        .card-box__icon img{
+                            width: 17.938rem;
+                            height:10.938rem;
+                        }
+                    }
+                    .career__right{
+                        height: auto;
+                        width: 706px;
+                    }
+                    @media (max-width:740px){
+                        .slick-slide{
+                            min-height: 505px !important;
+                            max-height: 505px;
+                          }
+                        .header__logo{
+                            margin-left: 0px;
+                        }
+                        .header__logo img{
+                            width: 84px;
+                            height: 23px;
+                        }
+                        .list-slider:nth-child(1){
+                            background-position: -880px -5px;
+                        }
+                        .basic__box-right
+                        {
+                            padding: 20px !important;
+                            text-align: center;
+                          }
+                          .basic__box-header::before{
+                            content: "";
+                            background: url(/img/bacsic-header-icon.png);
+                            background-size: 100% 100%;
+                            top: 10%;
+                            position: absolute;
+                            width:5rem;
+                            height: 0.7rem;
+                            left: 17%;
+                          }
+                          .basic__box-header::after{
+                            content: "";
+                            background: url(/img/bacsic-header-icon-left.png);
+                            background-size: 100% 100%;
+                            top: 10%;
+                            position: absolute;
+                            width:5rem;
+                            height: 0.7rem;
+                            right: 12%;
+                          }
+                          .career__left{
+                            padding: 0px !important
+                          }
+                          .slick-dots button{
+                            width: 8px;
+                            height: 8px;
+                          }
+                          .slick-dots .slick-active button{
+                            padding: 
+                            0px 10px;
+                          }
+                          .card-box{
+                            min-height: 354px;
+                        }
+                        .career__right{
+                            background-image: url(/img/career-img-mb.jpg);
+                            height: 194px;
+                            width: 358px;
+                        }
+                    }
