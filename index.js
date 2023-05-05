@@ -4,7 +4,7 @@ $(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
-    // autoplay:true,
+    autoplay:true,
     autoplaySpeed: 1200,
     dots: true,
     arrows:true,
@@ -18,6 +18,8 @@ $(document).ready(function(){
   $('.slider-2').slick({
     infinite: true,
     centerMode: true,
+    autoplay:true,
+    autoplaySpeed: 1200,
     centerPadding: '20%',
     slidesToShow: 1,
     dots:true,
