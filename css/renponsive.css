@@ -245,7 +245,7 @@
                    
                     @media (max-width:1023px) {
                         .card__deck{
-                            height: 100vh;
+                            height: 70vh;
                         }
                         .bg-img{
                           background-image: url("/img/bg__card.jpg");
