@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        '30r': '30rem',
+        '19': '70px',
+        '28r': '28rem',
         '25': '50px',
         '250': '500px',
         '282': '564px',
@@ -40,6 +41,7 @@ module.exports = {
         'lg': {'min':'1023px'},
         'down_lg': {'max':'1023px' },
         'md': {'min':'740px'},
+        'down_md': {'max':'740px' },
         'sm': {'max':'480px'},
       },
     },

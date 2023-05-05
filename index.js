@@ -16,14 +16,24 @@ $(document).ready(function(){
 });	
 $(document).ready(function(){
   $('.slider-2').slick({
-  slidesToShow: 1,
-  centerMode: true,
-  centerPadding: "10%",
-  speed: 500,
-    prevArrow:
-    `<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'</i></button>`,
-    nextArrow:
-    `<button type='button' class='slick-next pull-right'><i class='fas fa-chevron-right'</i></button>`,
-  });
-});	
+    infinite: true,
+    centerMode: true,
+    centerPadding: '20%',
+    slidesToShow: 1,
+    dots:true,
+        prevArrow:
+        `<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'</i></button>`,
+        nextArrow:
+        `<button type='button' class='slick-next pull-right'><i class='fas fa-chevron-right'</i></button>`,
+      });
+})
+const cards = document.querySelectorAll(".card__box--deck");
+
+cards.forEach((card) => {
+    card.addEventListener("click", () => {
+        card.classList.toggle("active");
+        card.classList.toggle("unactive");
+    })
+});
+
 
